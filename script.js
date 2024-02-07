@@ -5,6 +5,10 @@ document.addEventListener("keydown", function(event){
     jump();
 });
 
+document.addEventListener("touchstart", function(event) {
+    jump();
+});
+
 function jump () {
     if (dog.classList !="jump") {
         dog.classList.add("jump")
